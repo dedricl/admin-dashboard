@@ -19,10 +19,7 @@ a {
   font-weight: 500;
 }
 
-header {
-  background-color: red;
-  grid-column: 2;
-}
+/* SIDEBAR */
 
 .sidebar {
   background-color: rgb(47, 179, 240);
@@ -42,8 +39,12 @@ header {
 }
 
 .dashboard-icon {
-  width: 30px;
+  width: 42px;
   fill: #fff;
+}
+
+h1 {
+  font-size: 26px;
 }
 
 .dashboard-link {
@@ -65,9 +66,20 @@ header {
 }
 
 .svg-white {
-  width: 20px;
+  width: 26px;
   fill: #fff;
 }
+
+/* HEADER */
+
+header {
+  padding: 16px;
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+/* MAIN */
 
 main {
   background-color: blue;
