@@ -122,6 +122,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.08);
 }
 
 .top-header,
@@ -212,7 +213,7 @@ main {
   display: grid;
   grid-template-columns: 3fr 1fr;
   padding: 30px;
-  background-color: lightgray;
+  background-color: #e0dede;
   gap: 32px;
 }
 
@@ -229,9 +230,7 @@ h3 {
 .project-card {
   background-color: #fff;
   padding: 15px;
-  /* display: flex;
-  flex-direction: column;
-  gap: 15px; */
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.08);
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
   gap: 15px;
@@ -249,6 +248,7 @@ h3 {
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 25px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.08);
 }
 
 .trending-card {
@@ -259,4 +259,5 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.08);
 }
