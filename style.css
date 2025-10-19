@@ -19,6 +19,10 @@ a {
   font-weight: 500;
 }
 
+p {
+  font-size: 14px;
+}
+
 .btn {
   cursor: pointer;
   padding: 12px 24px;
@@ -33,6 +37,26 @@ a {
 
 .primary-color {
   background-color: rgb(24, 24, 202);
+}
+.para-color {
+  color: #b5b1b1;
+}
+
+.mb {
+  margin-bottom: 5px;
+}
+
+.mt10 {
+  margin-top: 14px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.pb20 {
+  padding-bottom: 6px;
+  border-bottom: 1px solid #ededed;
 }
 
 /* SIDEBAR */
@@ -86,6 +110,10 @@ h1 {
   fill: #fff;
 }
 
+.account-name {
+  margin-bottom: 0;
+}
+
 /* HEADER */
 
 header {
@@ -109,7 +137,7 @@ header {
   background-color: #f3f3f3;
   padding: 4px 12px;
   border-radius: 30px;
-  flex: 0.4;
+  flex: 0.45;
 }
 
 .search-bar input[type="text"] {
@@ -153,12 +181,17 @@ svg {
 .profile-intro {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .profile-intro-text {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.gap {
+  gap: 7px;
 }
 
 .social {
@@ -174,7 +207,56 @@ svg {
 /* MAIN */
 
 main {
-  background-color: blue;
   grid-column: 2;
   grid-row: 2;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 30px;
+  background-color: lightgray;
+  gap: 32px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.projects-galleries {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.project-card {
+  background-color: #fff;
+  padding: 15px;
+  /* display: flex;
+  flex-direction: column;
+  gap: 15px; */
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  gap: 15px;
+  border-radius: 10px;
+  border-left: 10px solid gold;
+}
+
+.project-gadgets {
+  display: flex;
+  gap: 20px;
+}
+
+.announcements-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.trending-card {
+  background-color: #fff;
+  padding: 20px 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
